@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="WNDHelp32latest/WNDHelp32latest.vcxproj" />
+  <Project Path="WNDHelp32latest/WNDHelp32latest.vcxproj" Id="ad3caac8-d9cc-40b6-914e-74346c629f03" />
 </Solution>
