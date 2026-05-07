@@ -85,7 +85,6 @@
 #define HEXEND 0xFFFFFFFF
 
 #define nul_ptr nullptr
-f
 
 #define INTLONG __int64
 /* ADD WINDOWS HEADER (Windows.h) TO USE THIS */
