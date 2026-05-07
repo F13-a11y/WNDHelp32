@@ -80,6 +80,14 @@
 #define THISC __thiscall
 #define FUNCNORET void
 #define STDC __stdcall
+
+#define NONE 0
+#define HEXEND 0xFFFFFFFF
+
+#define nul_ptr nullptr
+f
+
+#define INTLONG __int64
 /* ADD WINDOWS HEADER (Windows.h) TO USE THIS */
 
 
@@ -168,6 +176,7 @@ typedef const char* stringmax;
 #define inlasm __asm
 
 #define flscr __pragma fenv_access(on)
+
 #pragma region SCM_DRIVER
 /* KERNEL DRIVER MACROS */
 #define SERVICE_KERNEL_DRIVER   0x00000001
@@ -402,7 +411,7 @@ bool isPositive(int n) {
 #pragma endregion
 
 void ShowOpenFileDialog(HWND hwnd, LPCTSTR filter);
-int WinVer;
+int WinVer();
 HANDLE AttachProc(DWORD pid);
 DWORD GetPidByProcessName(const std::wstring& exeName);
 bool isPositive(int n);
